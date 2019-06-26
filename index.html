@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--Bootstrap css-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!--Main css-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--Font awesome-->
+  <link rel="stylesheet" href="css/all.css">
+  <title>InvestorOption</title>
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <script>
+    window.sr = ScrollReveal({
+      distance: '100px',
+      duration: 1000,
+      easing: 'ease',
+      mobile: true,
+      reset: false,
+      scale: 1,
+      viewFactor: 0.1,
+    });
+  </script>
+</head>
+
+<body>
+  <!-- task bar-->
+  <div class="top-nav">
+    <ul class="contact">
+      <li><i class="fas fa-envelope"></i></li>
+      <li>help@InvestorOptions.com</li>
+      <li>|</li>
+      <li><i class="fas fa-phone"></i></li>
+      <li>+66 (134) 8390 2782</li>
+    </ul>
+    <ul class="social_links">
+      <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      <li><a href=""><i class="fab fa-twitter"></i></a></li>
+    </ul>
+  </div>
+  <!-- task bar end-->
+
+  <!--Header-->
+  <header>
+    <nav>
+      <div class="branding">
+        <h2>InvestorOptions</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#choose">Why choose us</a></li>
+        <li><a href="#offer">What We Offer</a></li>
+        <li><a href="#works">How It Works</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="btn btn-btn btn-fill">Sign up</button></li>
+        <li><button class="btn btn-btn log">Log In</button></li>
+      </ul>
+      <div class="menu-toggle">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- News -->
+  <div class="news text-center">
+    <marquee behavior="scroll" direction="right">
+      <ul>
+        <li><strong>Stock Prices: </strong> USD <i class="fas fa-caret-right color0"></i> BTC = $8000/BTC</li>
+        <li>USD <i class="fas fa-caret-right color1"></i> BTC = $8000/BTC</li>
+        <li>USD <i class="fas fa-caret-right color2"></i> BTC = $8000/BTC</li>
+        <li>USD <i class="fas fa-caret-right color0"></i> BTC = $8000/BTC</li>
+        <li>USD <i class="fas fa-caret-right color0"></i> BTC = $8000/BTC</li>
+      </ul>
+    </marquee>
+  </div>
+  <!-- News end -->
+
+  <!--Banner-->
+  <section class="container-fluid">
+    <div class="row">
+      <div id="sr-prev" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="20000">
+            <img src="./img/component.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block">
+              <h3>Invest And Earn</h3>
+              <p>With Highly skilled team that offer vest experince across the financial industry and beyound <span
+                  id="hidden"> We
+                  provide
+                  tailored
+                  financial investment advice designed to provide each client with the investment solution that fits
+                  there
+                  needs
+                  perfectly</span>.</p>
+              <a href="" class="btn btn-btn btn-fill">Get Started </a>
+            </div>
+          </div>
+          <div class="carousel-item active" data-interval="20000">
+            <img src="./img/component.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block">
+              <h3>Invest And Earn</h3>
+              <p>With Highly skilled team that offer vest experince across the financial industry and beyound <span
+                  id="hidden"> We
+                  provide
+                  tailored
+                  financial investment advice designed to provide each client with the investment solution that fits
+                  there
+                  needs
+                  perfectly</span>.</p>
+              <a href="" class="btn btn-btn btn-fill">Get Started </a>
+            </div>
+          </div>
+          <div class="carousel-item active" data-interval="20000">
+            <img src="./img/component.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block">
+              <h3>Invest And Earn</h3>
+              <p>With Highly skilled team that offer vest experince across the financial industry and beyound We
+                  provide
+                  tailored
+                  financial investment advice designed to provide each client with the investment solution that fits
+                  there
+                  needs
+                  perfectly.</p>
+              <a href="" class="btn btn-btn btn-fill">Get Started </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Banner end-->
+  <section class="section-1">
+    <div class="text-center container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-6">
+          <marquee behavior="scroll"  height="120" direction="up" scrolldelay="250">
+            <div class="text-center"><span class="name pr-4">SENSEX</span> <span class="amount pr-4">279768</span> <i class="fas fa-caret-down text-danger"></i> <span class="px-4 text-danger">66.59(0.24%)</span></div>
+            <div class="mt-4 text-center"><span class="name pr-4">SENSEX</span> <span class="amount pr-4">279768</span> <i class="fas fa-caret-up text-danger"></i> <span class="px-4 text-danger">66.59(0.24%)</span></div>
+          </marquee>
+        </div>
+        <div class="col-md-6 col-sm-6 col-6">
+          <marquee behavior="scroll" direction="up" height="120"  scrolldelay="250">
+            <div class="text-center"><span class="name pr-4">NHAI</span> <span class="amount pr-4">279768</span> <i class="fas fa-caret-up text-green"></i> <span class="px-4 text-green">66.59(0.24%)</span></div>
+            <div class="mt-4 text-center"><span class="name pr-4">NHAI</span> <span class="amount pr-4">279768</span> <i class="fas fa-caret-up text-green"></i> <span class="px-4 text-green">66.59(0.24%)</span></div>
+          </marquee>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- header end 
+    =========================================================-->
+
+  <!-- why choose us -->
+  <section class="choose__us" id="choose">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-sm-6 col-md-4 mx-auto pt-5">
+          <div class="container">
+            <img src="img/component (1).png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-8 mx-auto pt-4">
+          <div class="container">
+            <h2 class="title__head">Why Choose Us</h2>
+            <p>We provide value and guidance for clients in all kinds of financial activities, delivering the returns
+              that help our clients achieve their goals. We specialize in Oil and Gas commodity trading along with
+              precious metals, in particular Gold trading, offering both our deep knowledge of the markets and attention
+              to detail of daily market conditions to deliver exceptional results for all our clients</p>
+            <button class="btn btn-btn btn-fill">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- why choose us end
+    ========================================================-->
+
+  <!--what we offer -->
+  <section class="we__offer">
+    <div class="container">
+      <div class="row" id="offer">
+        <div class="col-10 col-sm-6 col-md-8 mx-auto">
+          <div class="container">
+            <h2 class="title__head">What Our Platform Offers You</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sunt magni numquam architecto facere
+              culpa voluptate modi temporibus totam cum, at, voluptatum cupiditate molestiae ab illo. Delectus dolorum
+              doloremque error beatae in voluptatem nostrum. Ratione repellendus vitae delectus veniam consectetur.</p>
+          </div>
+          <div class="row">
+            <div class="col-10 col-md-6 col-sm-4 mx-auto py-3">
+              <ul>
+                <li><img src="./img/security.png" class="img-fluid" alt=""> Security</li>
+              </ul>
+            </div>
+            <div class="col-10 col-md-6 col-sm-4 mx-auto py-3">
+              <ul>
+                <li><img src="./img/fly.png" class="img-fluid" alt=""> Instant Payment</li>
+              </ul>
+            </div>
+            <div class="col-10 col-md-6 col-sm-4 py-3 mx-auto">
+              <ul>
+                <li><img src="./img/dollar.png" class="img-fluid" alt=""> Stable Income</li>
+              </ul>
+            </div>
+            <div class="col-10 col-md-6 col-sm-4 py-3 mx-auto">
+              <ul>
+                <li><img src="./img/call.png" class="img-fluid" alt=""> 24 Hours Support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-4 mx-auto">
+          <div class="container">
+            <img src="img/offer.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- what we offer end 
+    =========================================================-->
+
+  <!-- How it works -->
+  <section class="works mt-sm-4">
+    <div class="container">
+      <div class="row" id="works">
+        <div class="col-10 col-sm-6 col-md-4 mx-auto">
+          <div class="container">
+            <img src="img/img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-8 mx-auto">
+          <div class="container">
+            <h2 class="title__head">How it works</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos atque repudiandae architecto.
+              Libero, consectetur. Mollitia, reiciendis? Consectetur, tempore possimus!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos atque repudiandae architecto.
+              Libero, consectetur. Mollitia, reiciendis? Consectetur, tempore possimus!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- How it works end 
+    ==========================================================-->
+
+  <!-- Plans -->
+  <section class="plans">
+    <div class="container" id="plans">
+      <h2 class="title__head pb-5 text-center">POPULAR INVESTMENT PLANS</h2>
+      <div class="row">
+        <div class="col-10 col-sm-6 col-md-3 mx-auto text-center py-2">
+          <div class="card">
+            <div class="container py-4">
+              <p>Starter Plan</p>
+              <h3 class="pt-4">$300-$1000</h3>
+              <p><small>5% Return on investment</small></p>
+              <p>Features: <span>Forex Major</span></p>
+              <button class="btn btn-btn btn-fill px-4">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3 mx-auto text-center py-2">
+          <div class="card" id="card">
+            <div class="container py-4">
+              <p>VIP Plan</p>
+              <h2 class="pt-4">$1100-$3000</h2>
+              <p><small>10% Return on investment</small></p>
+              <p>Features: <span>Forex Major </span> Binary Options</p>
+              <button class="btn btn-btn log px-4">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3 mx-auto text-center py-2">
+          <div class="card">
+            <div class="container py-4">
+              <p>Platinum Plan</p>
+              <h2 class="pt-4">$3100-$5100</h2>
+              <div class="card__text">
+                <p><small>15% Return on investment</small></p>
+                <p>Features: Forex Majors/ Minors Binary Options, CFO Indexes</p>
+              </div>
+              <button class="btn btn-btn btn-fill px-4">BUY</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3 mx-auto text-center text-center py-2">
+          <div class="card" id="card">
+            <div class="container py-4">
+              <p>VIP Plan</p>
+              <h2 class="pt-4">$5100-$2000</h2>
+              <div class="card__text">
+                <p></p><small>25% Return on investment</small></p>
+                <p>Features: <span>Forex Majors/ Minors Binary Options, Gold</span></p>
+              </div>
+              <button class="btn btn-btn log px-4">BUY</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- plans end 
+    ==========================================================-->
+
+  <!-- Testimonies -->
+  <section class="testimony">
+    <h2 class="title__head py-4 text-center">TESTIMONIALS</h2>
+    <div class="container" id="testimony">
+      <div class="row">
+        <div class="col-10 col-sm-6 col-md-5 mx-auto">
+          <div class="card p-4" id="card">
+            <img src="img/avatar_user_2.jpg" alt="">
+            <!-- <i class="fas fa-quote-right text-center "></i> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veniam,ratione voluptates amet
+              laborum, animi explicabo sapiente ipsa officia illo voluptatum recusandae iure vero nemo. Dolorem ab iusto
+              autem quae debitis soluta consequatur esse, fugit, eligendi earum reprehenderit, consectetur deleniti.</p>
+            <p class="text-right"><strong>John Smith-CEO, yeti LLC</strong></p>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-5 mx-auto pt-2">
+          <div class="card p-4" id="card">
+              <img src="img/avatar_user_2.jpg" alt="">
+            <!-- <i class="fas fa-quote-right text-center"></i> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veniam,ratione voluptates amet
+              laborum, animi explicabo sapiente ipsa officia illo voluptatum recusandae iure vero nemo. Dolorem ab iusto
+              autem quae debitis soluta consequatur esse, fugit, eligendi earum reprehenderit, consectetur deleniti.</p>
+            <p class="text-right"><strong>John Smith-CEO, yeti LLC</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonies end 
+    ==========================================================-->
+
+  <!-- Contact -->
+  <section class="contact">
+    <h2 class="title__head text-center">Contact us</h2>
+    <div class="container" id="contact">
+      <div class="row">
+        <div class="col-10 col-sm-6 mx-auto my-2">
+          <div class="container">
+            <img src="img/contact.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 mx-auto mt-4">
+          <div class="container">
+            <form action="">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas  fa-user"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Full Name">
+                </div>
+                <div class="input-group my-4">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas  fa-envelope"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="input-group my-4">
+                  <textarea class="form-control" rows="9" placeholder="Enter Your Message Here"></textarea>
+                </div>
+            </form>
+            <button class="btn btn-btn btn-fill d-flex ml-auto">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact end 
+    ==========================================================-->
+
+  <!-- map -->
+  <section class="map">
+    <div class="container ">
+      <div class="row">
+        <div class="col-12">
+          <div class="map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
+              width="900" height="550" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- map end 
+      ==========================================================-->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="main__footer py-5">
+        <div class="row">
+          <div class="col-10 col-sm-4 col-md-4 px-3 mx-auto">
+            <div class="container">
+              <h2 class="footer__title">InvestorOptions</h2>
+              <ul class="footer__links">
+                <li><i class="fab fa-facebook-f fab-links"></i></li>
+                <li><i class="fab fa-instagram fab-links"></i></li>
+                <li><i class="fab fa-twitter fab-links"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-10 col-sm-2 col-md-3 mx-auto py-4">
+            <h4>Quick Links</h4>
+            <div class="container">
+              <ul>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Privacy Policy</a></li>
+                <li> <a href="#">Consultancy</a></li>
+                <li> <a href="#">Contact</a></li>
+                <li> <a href="#">Terms And Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-5 mx-auto">
+            <div class="container">
+              <h2 class="footer__title">Subscribe To Our NewsLetter</h2>
+              <p>Subscribe to our newsletter to get important news, amazing offers & inside scoops:</p>
+              <form action="">
+                <div class="form-group">
+                  <div class="input-group my-4">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <div class="input-group-prepend">
+                      <button class="btn-sub">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="small__footer text-center">
+      <p>InvestorOptions &copy; 2015 - 2019 All right reserved.</p>
+    </div>
+  </footer>
+  <!--footer end 
+    =============================================================
+    =============================================================
+    =============================================================-->
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    sr.reveal('#contact', {
+      origin: 'left',
+    });
+
+    sr.reveal('#card, #offer, #works', {
+      origin: 'bottom',
+    });
+
+    sr.reveal('.card, #choose', {
+      origin: 'right',
+    });
+
+
+  </script>
+</body>
+
+</html>
