@@ -103,6 +103,20 @@ ul {
   text-align: center;
 }
 
+.carousel-caption .small-screen {
+  display: none;
+}
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.7);
+}
 
 header {
   padding: 0;
@@ -232,17 +246,12 @@ form .input-group textarea {
 .testimony .card {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.733);
 }
-
+ 
 .testimony .card img {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  /* margin-left: 9rem; */
-  margin-bottom: 10px;
-  border: solid 3px #0f1620;
-  position: relative;
-  left: 2rem;
 }
+
+
 
 footer {
   background: #040c19;
@@ -361,16 +370,11 @@ footer .footer__links {
     padding: 5px 10px;
   }
 
-  .banner h1 {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
+  .carousel-caption .small-screen {
+    display: none;
   }
-  .banner .title {
-    position: absolute;
-    top: 5rem;
-    left: 3rem;
-    width: 60%;
-    font-size: 1rem;
+  .carousel-caption .big-screen {
+    display: block;
   }
 }
 
@@ -387,7 +391,7 @@ footer .footer__links {
   }
 
   .carousel-caption{
-    top: -1em;
+    top: 1.2em;
     line-height: 1rem;
     text-align: start;
   }
@@ -401,16 +405,23 @@ footer .footer__links {
 .carousel-caption p {
   font-size: 0.8rem;
 }
+.carousel-caption .small-screen {
+  display: block;
+}
+.carousel-caption .big-screen {
+  display: none;
+}
 
   .nav-links {
     position: absolute;
     height: 70vh;
     top: 20vh;
-    background: #fff;
+    background: #e9f2ff;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     z-index: 1;
     padding: 5px;
   }
@@ -431,8 +442,6 @@ footer .footer__links {
 @media screen and (max-width: 320px) {
 
   .section-1{
-    height: 20vh;
-    width: 100%;
     padding: 0;
     font-size: 0.8rem;
     margin: 0;
@@ -443,7 +452,7 @@ footer .footer__links {
   }
 
   .carousel-caption{
-    top: -1em;
+    top: 1.5em;
     line-height: 1rem;
     text-align: start;
   }
@@ -456,6 +465,12 @@ footer .footer__links {
 }
 .carousel-caption p {
   font-size: 0.8rem;
+}
+.carousel-caption .small-screen {
+  display: block;
+}
+.carousel-caption .big-screen {
+  display: none;
 }
  
 
@@ -470,10 +485,11 @@ footer .footer__links {
 
   .nav-links {
     position: absolute;
-    right: 0px;
+    right: 20vw;
     height: 70vh;
     top: 25vh;
     background: #fff;
+    transform: translateX(30px);
     display: flex;
     flex-direction: column;
   }
